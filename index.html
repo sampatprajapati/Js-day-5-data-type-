@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Data type</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./js/script.js"></script>
+    </head>
+    <body>
+        <h1>Hindustan Times</h1>
+        <p class="news1"></p>
+        <script>
+            let news1 = {
+                /*let is a variable which is  introduced in ES6(2015) and here is news1 is the name of variable and it is a js object also. {}=js object*/
+                w0: "News-1.   ",
+                w1: "BJP ", //String Data Type
+                w2: "spokesperson ", //String Data Type
+                w3: "Tom ",
+                w4: "Vadakkan ",
+                w5: "rejected ",
+                w6: "Congress’s ",
+                w7: "claim ",
+                w8: "about ",
+                w9: "Modi’s ",
+                w10: "roadshow, ",
+                w11: "saying  ",
+                w12: "the ",
+                w13: "opposition ",
+                w14: " party ",
+                w15: "wants ",
+                w16: " to ",
+                w17: "be ",
+                w18: "a ",
+                w19: "bad ",
+                w20: "loser. ",
+            };
+            var n1 =
+                news1.w0 +
+                news1.w1 +
+                news1.w2 +
+                news1.w3 +
+                news1.w4 +
+                news1.w5 +
+                news1.w6 +
+                news1.w7 +
+                news1.w8 +
+                news1.w9 +
+                news1.w10 +
+                news1.w11 +
+                news1.w12 +
+                news1.w13 +
+                news1.w14 +
+                news1.w15 +
+                news1.w16 +
+                news1.w17 +
+                news1.w18 +
+                news1.w19 +
+                news1.w20;
+
+            console.log(n1);
+            console.log(`News-2 ` + news2);
+            //1 way to see the js output console.log()
+            //console.log() only shows the output in the console section of inspect element.
+            document.querySelector("p.news1").innerHTML = n1;
+            //3 way to see the js output.
+            /*the document.getElementById(id) method this shows the output in the web page directly.Becouse this can  directly access or change the innerHTML(Content Area)*/
+        </script>
+        <script>
+            let news3 = {
+                w1: " Glasgow  ",
+                w2: "airport: ",
+                w3: " Large  ",
+                w4: " queues ",
+                w5: " were ",
+                w6: "built ",
+                w7: " up ",
+                w8: "around ",
+                w9: " the ",
+                w10: "check-in ",
+                w11: "desks ",
+                w12: " and ",
+                w13: "some ",
+                w15: " passengers ",
+                w16: " left ",
+                w17: " standing ",
+                w18: " in ",
+                w19: " the ",
+                w20: "car ",
+                w21: "park, ",
+                w22: " the ",
+                w23: " report ",
+                w24: "said. ",
+            };
+            let n3 =
+                news3.w1 +
+                news3.w2 +
+                news3.w3 +
+                news3.w4 +
+                news3.w5 +
+                news3.w6 +
+                news3.w7 +
+                news3.w8 +
+                news3.w9 +
+                news3.w10 +
+                news3.w11 +
+                news3.w12 +
+                news3.w13 +
+                news3.w14 +
+                news3.w15 +
+                news3.w16 +
+                news3.w17 +
+                news3.w18 +
+                news3.w19 +
+                news3.w20 +
+                news3.w21 +
+                news3.w22 +
+                news3.w23 +
+                news3.w24;
+            document.write(`News-3.` + n3); //4th way to see the js code output.
+            const news4 = {
+                w1: "Rajasthan ",
+                w2: " mulls ",
+                w3: " organising ",
+                w4: " folk ",
+                w5: " art ",
+                w6: " festivals, ",
+                w7: " art ",
+                w8: "and  ",
+                w9: " culture ",
+                w10: "of ",
+                w11: " different ",
+                w12: " regions, ",
+                w13: " uplift ",
+                w14: " artists. ",
+                w15: " As ",
+                w16: " the ",
+                w17: " tourism ",
+                w18: " industry ",
+                w19: " is ",
+                w20: " recovering ",
+                w21: " from ",
+                w22: " the ",
+                w23: "impact  ",
+                w24: " of ",
+                w25: " the ",
+                w26: " Covid-19 ",
+                w27: " pandemic, ",
+                w28: " the ",
+                w29: "Rajasthan ",
+                w30: " government ",
+                w31: " has ",
+                w32: " planned ",
+                w33: "to ",
+                w34: " organise ",
+                w35: " folk ",
+                w36: "are ",
+                w37: "  festivals ",
+                w38: " from ",
+                w39: "the ",
+                w40: " panchayat ",
+                w41: " to ",
+                w42: " the ",
+                w43: " state ",
+                w44: "level ",
+                w45: "  to ",
+                w46: "give  ",
+                w47: "boost a ",
+                w48: " to ",
+                w49: " the ",
+                w50: "sector. ",
+            };
+            const n4 =
+                news4.w1 +
+                news4.w2 +
+                news4.w3 +
+                news4.w4 +
+                news4.w5 +
+                news4.w6 +
+                news4.w7 +
+                news4.w8 +
+                news4.w9 +
+                news4.w10 +
+                news4.w11 +
+                news4.w12 +
+                news4.w13 +
+                news4.w14 +
+                news4.w15 +
+                news4.w16 +
+                news4.w17 +
+                news4.w18 +
+                news4.w19 +
+                news4.w20 +
+                news4.w21 +
+                news4.w22 +
+                news4.w23 +
+                news4.w24 +
+                news4.w25 +
+                news4.w26 +
+                news4.w27 +
+                news4.w28 +
+                news4.w29 +
+                news4.w30 +
+                news4.w31 +
+                news4.w32 +
+                news4.w33 +
+                news4.w34 +
+                news4.w35 +
+                news4.w36 +
+                news4.w37 +
+                news4.w38 +
+                news4.w39 +
+                news4.w40 +
+                news4.w41 +
+                news4.w42 +
+                news4.w43 +
+                news4.w44 +
+                news4.w45 +
+                news4.w46 +
+                news4.w47 +
+                news4.w48 +
+                news4.w49 +
+                news4.w50;
+            window.alert(`News-4 ` + n4);
+        </script>
+        <br />
+        <script>
+            console.log(n4);
+            document.write(`News-4.` + n4);
+        </script>
+        <br />
+        <script>
+            document.write(`News-5.` + news5);
+        </script>
+    </body>
+</html>
